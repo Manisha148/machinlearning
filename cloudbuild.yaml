@@ -1,5 +1,5 @@
 steps:
-  # Step 1: pull the container image if it is already built, if fails do not exit
+  # Step 1: pull the container image if it is already built, if fails do not exit.
   - name: 'gcr.io/cloud-builders/docker'
     entrypoint: 'bash'
     args:
